@@ -1,0 +1,560 @@
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.a-start {
+	align-items: flex-start;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.j-around {
+	justify-content: space-around;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.header {
+	font-size: 16px;
+	position: fixed;
+	z-index: 1001;
+	width: 100%;
+	padding: 15px;
+	background-color: #0d1326;
+}
+
+.header .fas {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.header .back {
+	color: #8f94a8;
+}
+
+.header .back:hover {
+	transition: all .3s;
+	color: #e6ebff;
+}
+
+.header .download-buy {
+	width: 240px;
+}
+
+.header .download-buy .download,
+.header .download-buy .edit {
+	color: #8f94a8;
+}
+
+.header .download-buy .download:hover,
+.header .download-buy .edit:hover {
+	transition: all .3s;
+	color: #e6ebff;
+}
+
+.header .download-buy .buy {
+	margin-right: 10px;
+	color: #e6ebff;
+}
+
+.header .download-buy .buy .fa-shopping-cart {
+	color: royalblue;
+}
+
+.shot-pic {
+	z-index: 999;
+	padding-top: 45px;
+	background-color: #ffa22d;
+}
+
+.shot-pic .selection-and-main-letter .selection {
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.shot-pic .selection-and-main-letter .selection .dash {
+	width: 25px;
+	height: 3px;
+	margin: 5px 0;
+	transition: width .5s;
+	background: black;
+}
+
+.shot-pic .selection-and-main-letter .selection:hover .dash-1 {
+	width: 10px;
+	transition: width .5s;
+}
+
+.shot-pic .selection-and-main-letter .selection:hover .dash-2 {
+	width: 16px;
+	transition: width .5s;
+}
+
+.shot-pic .selection-and-main-letter .selection:checked ~ .dropdown {
+	display: block;
+}
+
+.shot-pic .selection-and-main-letter .close {
+	font-size: 30px;
+	position: absolute;
+	z-index: 10000;
+	bottom: 50px;
+	left: 50px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.shot-pic .selection-and-main-letter .close:checked ~ .dropdown {
+	display: none;
+}
+
+.shot-pic .selection-and-main-letter .dropdown {
+	position: fixed;
+	z-index: 5000;
+	display: none;
+	width: 100%;
+	height: 1500px;
+	margin-left: -130px;
+	background-color: rgba(0, 0, 0, .769);
+}
+
+.shot-pic .selection-and-main-letter .dropdown .menu {
+	position: relative;
+	top: 250px;
+	left: 380px;
+	width: 600px;
+}
+
+.shot-pic .selection-and-main-letter .dropdown .menu > ul > li {
+	margin-top: 25px;
+}
+
+.shot-pic .selection-and-main-letter .dropdown .menu > ul > li > a {
+	font-size: 16px;
+	color: #fff;
+}
+
+.shot-pic .selection-and-main-letter .dropdown .menu > ul > li > a:hover {
+	color: #d0d0d0;
+}
+
+.shot-pic .selection-and-main-letter .main-letter a {
+	font-size: 30px;
+	font-weight: 600;
+	color: #1b1b1a;
+}
+
+.shot-pic .icon a {
+	font-size: 15px;
+	line-height: 25px;
+	color: black;
+}
+
+.shot-pic .icon a i {
+	margin-left: 20px;
+}
+
+.shot-pic .icon a:hover {
+	transition: all .3s;
+	color: #f9f9f9;
+}
+
+.banner-1 {
+	z-index: 1;
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/bt5-2-banner-1.jpg);
+	background-size: cover;
+}
+
+.banner-1:after {
+	position: absolute;
+	z-index: 1;
+	top: 104px;
+	left: 0;
+	width: 100%;
+	height: 650px;
+	content: '';
+	background-color: rgba(0, 0, 0, .55);
+}
+
+.banner-1 .main-content {
+	position: relative;
+	z-index: 10;
+	top: 170px;
+}
+
+.banner-1 .main-content .big-word {
+	font-size: 70px;
+	line-height: 75px;
+	color: #fff;
+}
+
+.banner-1 .main-content .small-word {
+	font-size: 18px;
+	line-height: 25px;
+	margin: 25px 0;
+	color: #ddd;
+}
+
+.banner-1 .main-content .contact-us button {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 25px;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-color: #e4882500;
+}
+
+.banner-1 .main-content .contact-us button:hover {
+	transition: all .3s;
+	border: 1px solid #ffa22d;
+	background-color: #ffa22d;
+}
+
+.about-photography .main-word .big-word {
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	text-align: center;
+	color: black;
+}
+
+.about-photography .main-word .small-word {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #777;
+}
+
+.about-photography .product {
+	margin: 50px 0;
+}
+
+.about-photography .product .product-sub .big-word {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 35px;
+	margin: 20px 0;
+	color: #222;
+}
+
+.about-photography .product .product-sub .small-word {
+	font-size: 16px;
+	line-height: 25px;
+	color: #777;
+}
+
+.about-photography .product .product-sub button {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0;
+	padding: 10px 25px;
+	cursor: pointer;
+	transition: all .3s;
+	color: #ffa22d;
+	border: #ffa22d solid 2px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.about-photography .product .product-sub button:hover {
+	transition: all .3s;
+	color: white;
+	background-color: #ffa22d;
+}
+
+.about-photography .product .product-imagine img {
+	width: 287px;
+	height: 445px;
+}
+
+.about-photography .box {
+	display: grid;
+	margin-bottom: 50px;
+	background-color: white;
+	grid-gap: 30px;
+	grid-template-columns: auto auto auto;
+}
+
+.about-photography .box .item {
+	padding: 15px 15px;
+	border: 1px solid #d8d8d8;
+}
+
+.about-photography .box .item a {
+	font-size: 25px;
+	line-height: 30px;
+	display: block;
+	margin-bottom: 15px;
+	color: #444;
+}
+
+.about-photography .box .item p {
+	font-size: 16px;
+	line-height: 25px;
+	color: #777;
+}
+
+.bg-c-p {
+	height: 620px;
+	background-image: url(../img/bt5-2-car-bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-c-p .creative-process {
+	position: relative;
+	top: 70px;
+	left: 70px;
+	width: 700px;
+	height: 480px;
+	background-color: white;
+}
+
+.bg-c-p .creative-process .main-content {
+	padding: 50px 0 30px 50px;
+}
+
+.bg-c-p .creative-process .main-content .big-word {
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 1em;
+	color: #222;
+}
+
+.bg-c-p .creative-process .main-content .item {
+	margin-top: 20px;
+}
+
+.bg-c-p .creative-process .main-content .item .img {
+	margin-right: 40px;
+}
+
+.bg-c-p .creative-process .main-content .item .item-content .i-c-big-word {
+	font-size: 20px;
+	line-height: 30px;
+	color: #444;
+}
+
+.bg-c-p .creative-process .main-content .item .item-content .i-c-small-word {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 10px 0 0;
+	color: #777;
+}
+
+.bg-advertising {
+	height: 840px;
+	margin-top: -10px;
+	background-image: url(../img/bt5-2-pink-girl.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-advertising .big-word {
+	font-size: 30px;
+	line-height: 40px;
+	color: #222;
+}
+
+.bg-advertising .small-word {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 20px 0;
+	color: #777;
+}
+
+.bg-advertising .movies-and-advertising {
+	margin: 150px 0 0 0;
+	padding: 70px 350px;
+	background-image: url(../img/bt5-2-flower.jpg);
+	background-size: cover;
+}
+
+.bg-advertising .movies-and-advertising .content {
+	width: 610px;
+	height: 310px;
+	padding: 50px;
+	background-color: white;
+}
+
+.bg-advertising .movies-and-advertising .content button {
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0;
+	padding: 15px 25px;
+	cursor: pointer;
+	transition: all .3s;
+	color: #ffa22d;
+	border: #ffa22d solid 2px;
+	border-radius: 4px;
+	background-color: white;
+}
+
+.bg-advertising .movies-and-advertising .content button:hover {
+	transition: all .3s;
+	color: white;
+	background-color: #ffa22d;
+}
+
+.bg-advertising .skilled-creative-photo-agency {
+	width: 610px;
+	margin: 70px 100px 70px 550px;
+	padding: 20px 40px;
+	background-color: white;
+}
+
+.bg-advertising .skilled-creative-photo-agency .content .big-word {
+	margin-top: 30px;
+}
+
+.bg-advertising .mega-production {
+	margin: 140px 0 70px 0;
+}
+
+.bg-advertising .mega-production .content .m-p-big-word {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 35px;
+	color: #222;
+}
+
+.bg-advertising .mega-production .content ul li i {
+	margin-top: 4px;
+	margin-right: 7px;
+	color: #222;
+}
+
+.bg-advertising .mega-production .imagine img {
+	width: 500px;
+	height: 310px;
+}
+
+.end {
+	margin-top: 500px;
+	padding: 60px 0;
+	background: #131419;
+}
+
+.end .info {
+	padding-bottom: 75px;
+	border-bottom: 1px solid rgba(130, 152, 171, .35);
+}
+
+.end .info .item {
+	padding: 0 60px;
+	border-right: 1px solid rgba(130, 152, 171, .35);
+}
+
+.end .info .item .title {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.end .info .item .content {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #999;
+}
+
+.end .info .item .content a {
+	transition: all .3s;
+	color: #999;
+}
+
+.end .info .item .content a:hover {
+	transition: all .3s;
+	color: #ffa22d;
+}
+
+.end .info .fax {
+	border-right: 5px solid #131419;
+}
+
+.end .more-info {
+	margin-bottom: -50px;
+	padding: 40px 0;
+}
+
+.end .more-info .content {
+	width: 720px;
+}
+
+.end .more-info .content p {
+	font-size: 16px;
+	line-height: 25px;
+	color: #bbb;
+}
+
+.end .more-info .content p a {
+	color: #bbb;
+}
+
+.end .more-info .content .w3 {
+	margin-left: 20px;
+}
+
+.end .more-info .content .w3 a:hover {
+	text-decoration: underline;
+}
+
+.end .more-info .logo {
+	font-size: 20px;
+	width: 90px;
+	margin-right: 20px;
+}
+
+.end .more-info .logo .fa-facebook-square {
+	color: #3b5998;
+}
+
+.end .more-info .logo .fa-facebook-square:hover {
+	color: #36518c;
+}
+
+.end .more-info .logo .fa-instagram {
+	color: #e1306c;
+}
+
+.end .more-info .logo .fa-instagram:hover {
+	color: #c12156;
+}
+
+.end .more-info .logo .fa-twitter-square {
+	color: #1da1f2;
+}
+
+.end .more-info .logo .fa-twitter-square:hover {
+	color: #198cd3;
+}
+

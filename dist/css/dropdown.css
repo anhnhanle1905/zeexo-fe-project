@@ -1,0 +1,42 @@
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	background: red;
+}
+
+img {
+	max-width: 100%;
+}
+
+.navigation {
+	position: relative;
+}
+
+.navigation .container nav > ul > li .home-dropdown {
+	position: absolute;
+	left: 0;
+	visibility: hidden;
+	width: 100%;
+	transition: all .4s;
+	transform: translateY(-20px) scaleY(0);
+	transform-origin: 0 0;
+	opacity: 0;
+	background: green;
+}
+
+.navigation .container nav > ul > li .home-dropdown > ul.dropdown {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navigation .container nav > ul > li .home-dropdown > ul.dropdown > li {
+	width: 20%;
+	padding: 20px;
+}
+
+.navigation .container nav > ul > li:hover .home-dropdown {
+	visibility: visible;
+	transform: translateY(0) scaleY(1);
+	opacity: 1;
+}
+

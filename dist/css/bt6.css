@@ -1,0 +1,563 @@
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.a-start {
+	align-items: flex-start;
+}
+
+.a-center {
+	align-items: center;
+}
+
+.j-between {
+	justify-content: space-between;
+}
+
+.j-around {
+	justify-content: space-around;
+}
+
+.j-center {
+	justify-content: center;
+}
+
+* {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.header {
+	font-size: 16px;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	padding: 15px;
+	background-color: #0d1326;
+	justify-content: space-between;
+}
+
+.header .fas {
+	margin-right: 10px;
+}
+
+.header .back {
+	color: grey;
+}
+
+.header .download-and-buy {
+	display: flex;
+	width: 230px;
+	justify-content: space-between;
+}
+
+.header .download-and-buy .download {
+	color: grey;
+}
+
+.header .download-and-buy .buy {
+	color: white;
+}
+
+.header .download-and-buy .buy .fa-shopping-cart {
+	color: #0085eb;
+}
+
+.banner {
+	width: 100%;
+	height: 700px;
+	padding-top: 20px;
+	background-image: url('https://demo.w3layouts.com/demosWTR/Freedom/01-11-2019/franchisor-freedom-demo_Free/632254492/web/assets/images/banner-3.jpg');
+	background-size: cover;
+}
+
+.banner .banner-nav .fran {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.banner .banner-nav .fran a {
+	color: white;
+}
+
+.banner .banner-nav nav {
+	margin-top: 50px;
+}
+
+.banner .banner-nav nav > ul > li:hover > ul.dropdown {
+	display: block;
+}
+
+.banner .banner-nav nav > ul > li a {
+	display: block;
+	padding: 10px 15px;
+	color: white;
+}
+
+.banner .banner-nav nav > ul > li a:hover {
+	color: red;
+}
+
+.banner .banner-nav nav > ul > li > ul.dropdown {
+	position: absolute;
+	display: none;
+	margin-top: -7px;
+	margin-left: 14px;
+	border: 1px solid #717070;
+	background: #333;
+}
+
+.banner .banner-nav nav > ul > li > ul.dropdown > li > a {
+	width: 180px;
+	color: white;
+}
+
+.banner .banner-nav nav > ul > li > ul.dropdown > li > a:hover {
+	color: red;
+}
+
+.banner .cor {
+	font-size: 13px;
+	font-weight: 600;
+	display: block;
+	margin-top: 130px;
+	color: white;
+}
+
+.banner .main-letter {
+	font-size: 65px;
+	font-weight: bold;
+	margin-top: 30px;
+	color: white;
+}
+
+.banner .consectetur .cons-item {
+	margin-top: 60px;
+	color: white;
+}
+
+.banner .consectetur .cons-item .icon {
+	display: flex;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .consectetur .cons-item .icon .fa {
+	font-size: 30px;
+	color: blue;
+}
+
+.banner .consectetur .cons-item .cons-content {
+	margin-right: 70px;
+	margin-left: 20px;
+}
+
+.banner .consectetur .cons-item .cons-content .cons {
+	font-size: 16px;
+}
+
+.banner .consectetur .cons-item .cons-content .cons-kind {
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.banner .consectetur .cons-item .cons-content a {
+	color: white;
+}
+
+.logo-company {
+	height: 200px;
+	margin: 0 100px;
+	border-bottom: 1px solid #ebeaea;
+}
+
+.logo-company img {
+	width: 110px;
+	height: 40px;
+}
+
+.logo-company .logo {
+	margin-right: 60px;
+}
+
+.business-ideas-and-plan .business-content {
+	margin-bottom: 120px;
+}
+
+.business-ideas-and-plan .business-content .content .main-content {
+	font-size: 16px;
+	line-height: 24px;
+	width: 505px;
+	margin-top: 20px;
+	color: #777;
+}
+
+.business-ideas-and-plan .business-content .content ul {
+	margin-top: 50px;
+}
+
+.business-ideas-and-plan .business-content .content ul li {
+	display: flex;
+	margin-top: 15px;
+	color: #777;
+}
+
+.business-ideas-and-plan .business-content .content ul li .far {
+	color: blue;
+}
+
+.business-ideas-and-plan .business-content .content ul li p {
+	margin-left: 20px;
+}
+
+.business-ideas-and-plan .business-content img {
+	width: 510px;
+	height: 335px;
+}
+
+.business-ideas-and-plan .business-content .read-more {
+	font-size: 17px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.business-ideas-and-plan .business-content .read-more a {
+	color: #494747;
+}
+
+.business-ideas-and-plan .business-content .read-more a:hover {
+	color: #dc0404;
+}
+
+.statistic-number {
+	margin-top: -50px;
+	background-color: #030380;
+}
+
+.statistic-number .item {
+	margin: 60px 30px;
+	color: white;
+}
+
+.statistic-number .item .item-number {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.statistic-number .item .item-content {
+	font-size: 20px;
+	margin: 10px 0 0 15px;
+}
+
+.statistic-number .item-1 {
+	margin-left: 270px;
+	padding-right: 120px;
+	border-right: 1px solid #404086;
+}
+
+.statistic-number .item-3 {
+	margin-right: 270px;
+	padding-left: 120px;
+	border-left: 1px solid #404086;
+}
+
+.content-4 {
+	height: 400px;
+	background: url(../img/bt6-content-4.jpg);
+}
+
+.content-4 .bg {
+	height: 400px;
+	background: rgba(0, 0, 0, .68);
+}
+
+.content-4 .bg .left-content {
+	color: white;
+}
+
+.content-4 .bg .left-content .business {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 80px;
+	letter-spacing: 1.5px;
+}
+
+.content-4 .bg .left-content p {
+	font-size: 20px;
+	line-height: 1.5;
+	padding-top: 30px;
+}
+
+.content-4 .bg .right-content {
+	color: white;
+}
+
+.content-4 .bg .right-content h1 {
+	padding-top: 90px;
+}
+
+.content-4 .bg .right-content .read-more {
+	font-size: 19px;
+	font-weight: 700;
+	margin-top: 35px;
+}
+
+.content-4 .bg .right-content .read-more a {
+	color: white;
+}
+
+.content-4 .bg .right-content .read-more a:hover {
+	color: #dc0404;
+}
+
+.service-selection .content {
+	margin: 40px 0;
+}
+
+.service-selection .content h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.service-selection .content p {
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	margin-top: 20px;
+	text-align: center;
+	color: #777;
+	justify-content: center;
+}
+
+.service-selection .selection .item {
+	width: 320px;
+	border: 1px solid #c1bfbfd4;
+}
+
+.service-selection .selection .item a img {
+	width: 319px;
+}
+
+.service-selection .selection .item a .service-info {
+	margin: 30px;
+}
+
+.service-selection .selection .item a .service-info h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: black;
+	justify-content: center;
+}
+
+.service-selection .selection .item a .service-info p {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #777;
+	justify-content: center;
+}
+
+.customer-comment {
+	height: 374px;
+	margin: 80px 0;
+	background-image: url(../img/bt6-customer_bg.jpg);
+	background-size: cover;
+}
+
+.customer-comment .bg {
+	padding: 75px 0;
+	color: white;
+	background: linear-gradient(45deg, #1625ef, #f3f3f300);
+}
+
+.customer-comment .bg .name-customer {
+	font-size: 18px;
+	margin-top: 40px;
+}
+
+.customer-comment .bg .name-customer img {
+	width: 70px;
+	height: 70px;
+	margin-right: 25px;
+	border-radius: 50%;
+}
+
+.customer-comment .bg .name-customer .name-info .name {
+	margin-bottom: 5px;
+}
+
+.form {
+	margin: 80px 0;
+}
+
+.form .cor {
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #8298ab;
+}
+
+.form h1 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form .email form {
+	display: flex;
+	justify-content: start;
+}
+
+.form .email form input {
+	font-size: 15px;
+	width: 300px;
+	padding: 14px;
+	color: #8298ab;
+	border: none;
+	background: #e1e9f0;
+}
+
+.form .email form button {
+	font-size: 17px;
+	font-weight: 600;
+	width: 150px;
+	height: 45px;
+	cursor: pointer;
+	text-align: center;
+	color: #f5f9fc;
+	border: none;
+	background: #2231f6;
+}
+
+.form .email form button:hover {
+	background-color: #f50039;
+}
+
+.form .content {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 20px;
+	text-align: center;
+	color: #777;
+}
+
+.ender {
+	margin: 70px 0;
+	padding: 60px 0;
+	background-color: black;
+}
+
+.ender .fran h2 a {
+	color: white;
+}
+
+.ender .fran p {
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 20px;
+	color: #b0adad;
+}
+
+.ender .fran p a {
+	color: #f5104e;
+}
+
+.ender .fran .icon {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.ender .fran .icon a i:hover {
+	background: rgba(191, 188, 188, .15);
+}
+
+.ender .fran .icon .fab {
+	margin-right: 10px;
+}
+
+.ender .fran .icon .fa-facebook-f {
+	color: #3b5998;
+}
+
+.ender .fran .icon .fa-twitter {
+	color: #00acee;
+}
+
+.ender .fran .icon .fa-instagram {
+	color: #3f729b;
+}
+
+.ender .usefull-link h3 {
+	color: white;
+}
+
+.ender .usefull-link ul {
+	margin-top: 30px;
+}
+
+.ender .usefull-link ul li {
+	margin-top: 15px;
+}
+
+.ender .usefull-link ul li a {
+	color: #b0adad;
+}
+
+.ender .usefull-link ul li a:hover {
+	color: #f5104e;
+}
+
+.ender .sub h3 {
+	color: white;
+}
+
+.ender .sub .email {
+	margin-top: 25px;
+}
+
+.ender .sub .email form {
+	display: flex;
+	justify-content: start;
+}
+
+.ender .sub .email form input {
+	font-size: 15px;
+	width: 250px;
+	padding: 14px;
+	color: #8298ab;
+	border: none;
+	background: #e9eef2;
+}
+
+.ender .sub .email form button {
+	font-size: 17px;
+	font-weight: 600;
+	width: 70px;
+	height: 46px;
+	cursor: pointer;
+	text-align: center;
+	color: #f5f9fc;
+	border: none;
+	background: #2231f6;
+}
+
+.ender .sub .email form button:hover {
+	background-color: #f50039;
+}
+
+.ender .sub .content {
+	line-height: 25px;
+	margin-top: 25px;
+	color: #b0adad;
+}
+

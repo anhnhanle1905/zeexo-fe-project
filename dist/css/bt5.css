@@ -1,0 +1,271 @@
+.phimmoi {
+	width: 660px;
+	height: 635px;
+	background-color: #484747;
+}
+
+.phimmoi .header {
+	font-family: tahoma;
+	display: flex;
+	margin: 5px;
+	padding-top: 4px;
+	border-bottom: 1px solid #676565;
+	justify-content: space-between;
+}
+
+.phimmoi .header .title {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 5px 0;
+	color: #dec130;
+}
+
+.phimmoi .header .seen-all {
+	display: flex;
+	width: 90px;
+	color: #d0caca;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.phimmoi .header .seen-all p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.phimmoi .header .seen-all .fa-caret-right {
+	margin-bottom: 5px;
+}
+
+.phimmoi .film-selection .row-1,
+.phimmoi .film-selection .row-2 {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao,
+.phimmoi .film-selection .diep-vien-an-danh,
+.phimmoi .film-selection .cong-chua-nho,
+.phimmoi .film-selection .kim-5,
+.phimmoi .film-selection .tin-nong,
+.phimmoi .film-selection .giang-sinh-nam-ay,
+.phimmoi .film-selection .kikoriki-du-hanh,
+.phimmoi .film-selection .sat-thu-nhan-tao {
+	font-family: tahoma;
+	width: 155px;
+	height: 280px;
+	margin-left: 5px;
+	border-top: 2px solid #1a1a1a;
+	border-right: 2px solid #1a1a1a;
+	border-bottom: 1px solid #676565;
+	border-left: 2px solid #1a1a1a;
+	background: #1a1a1a;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .mg,
+.phimmoi .film-selection .diep-vien-an-danh .mg,
+.phimmoi .film-selection .cong-chua-nho .mg,
+.phimmoi .film-selection .kim-5 .mg,
+.phimmoi .film-selection .tin-nong .mg,
+.phimmoi .film-selection .giang-sinh-nam-ay .mg,
+.phimmoi .film-selection .kikoriki-du-hanh .mg,
+.phimmoi .film-selection .sat-thu-nhan-tao .mg {
+	margin: 2px 5px;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao img,
+.phimmoi .film-selection .diep-vien-an-danh img,
+.phimmoi .film-selection .cong-chua-nho img,
+.phimmoi .film-selection .kim-5 img,
+.phimmoi .film-selection .tin-nong img,
+.phimmoi .film-selection .giang-sinh-nam-ay img,
+.phimmoi .film-selection .kikoriki-du-hanh img,
+.phimmoi .film-selection .sat-thu-nhan-tao img {
+	width: 151px;
+	height: 210px;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .red-title,
+.phimmoi .film-selection .diep-vien-an-danh .red-title,
+.phimmoi .film-selection .cong-chua-nho .red-title,
+.phimmoi .film-selection .kim-5 .red-title,
+.phimmoi .film-selection .tin-nong .red-title,
+.phimmoi .film-selection .giang-sinh-nam-ay .red-title,
+.phimmoi .film-selection .kikoriki-du-hanh .red-title,
+.phimmoi .film-selection .sat-thu-nhan-tao .red-title {
+	position: relative;
+	bottom: 266px;
+	left: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .red-title p,
+.phimmoi .film-selection .diep-vien-an-danh .red-title p,
+.phimmoi .film-selection .cong-chua-nho .red-title p,
+.phimmoi .film-selection .kim-5 .red-title p,
+.phimmoi .film-selection .tin-nong .red-title p,
+.phimmoi .film-selection .giang-sinh-nam-ay .red-title p,
+.phimmoi .film-selection .kikoriki-du-hanh .red-title p,
+.phimmoi .film-selection .sat-thu-nhan-tao .red-title p {
+	font-size: 9px;
+	font-weight: bold;
+	padding: 5px;
+	color: #d3d0d0;
+	background-color: #a20808;
+	box-shadow: 2px 3px 5px #121212;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .red-title .fa-caret-right,
+.phimmoi .film-selection .diep-vien-an-danh .red-title .fa-caret-right,
+.phimmoi .film-selection .cong-chua-nho .red-title .fa-caret-right,
+.phimmoi .film-selection .kim-5 .red-title .fa-caret-right,
+.phimmoi .film-selection .tin-nong .red-title .fa-caret-right,
+.phimmoi .film-selection .giang-sinh-nam-ay .red-title .fa-caret-right,
+.phimmoi .film-selection .kikoriki-du-hanh .red-title .fa-caret-right,
+.phimmoi .film-selection .sat-thu-nhan-tao .red-title .fa-caret-right {
+	font-size: 36px;
+	margin-top: -6.5px;
+	margin-left: -1px;
+	color: #a20808;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .vietnamese-film-name,
+.phimmoi .film-selection .diep-vien-an-danh .vietnamese-film-name,
+.phimmoi .film-selection .cong-chua-nho .vietnamese-film-name,
+.phimmoi .film-selection .kim-5 .vietnamese-film-name,
+.phimmoi .film-selection .tin-nong .vietnamese-film-name,
+.phimmoi .film-selection .giang-sinh-nam-ay .vietnamese-film-name,
+.phimmoi .film-selection .kikoriki-du-hanh .vietnamese-film-name,
+.phimmoi .film-selection .sat-thu-nhan-tao .vietnamese-film-name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #17bfda;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .english-film-name,
+.phimmoi .film-selection .diep-vien-an-danh .english-film-name,
+.phimmoi .film-selection .cong-chua-nho .english-film-name,
+.phimmoi .film-selection .kim-5 .english-film-name,
+.phimmoi .film-selection .tin-nong .english-film-name,
+.phimmoi .film-selection .giang-sinh-nam-ay .english-film-name,
+.phimmoi .film-selection .kikoriki-du-hanh .english-film-name,
+.phimmoi .film-selection .sat-thu-nhan-tao .english-film-name {
+	font-size: 11.5px;
+	margin-top: 5px;
+	color: #c1bdbd;
+}
+
+.phimmoi .film-selection .tro-choi-ki-ao .times,
+.phimmoi .film-selection .diep-vien-an-danh .times,
+.phimmoi .film-selection .cong-chua-nho .times,
+.phimmoi .film-selection .kim-5 .times,
+.phimmoi .film-selection .tin-nong .times,
+.phimmoi .film-selection .giang-sinh-nam-ay .times,
+.phimmoi .film-selection .kikoriki-du-hanh .times,
+.phimmoi .film-selection .sat-thu-nhan-tao .times {
+	font-size: 12px;
+	margin-top: 5px;
+	color: #828282;
+}
+
+.usa {
+	margin-top: 5px;
+	border-top: 1px solid grey;
+}
+
+.usatoday {
+	font-family: tahoma;
+	width: 700px;
+	height: 635px;
+	margin: 20px;
+}
+
+.usatoday .header .m-t-s {
+	margin-bottom: 10px;
+	color: #282727;
+}
+
+.usatoday .blue-dash {
+	position: relative;
+	z-index: -1;
+	bottom: 23px;
+	left: 2px;
+	width: 685px;
+	height: 10px;
+	background-color: #85d5ee;
+}
+
+.usatoday .news-item {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.usatoday .news-item .border {
+	border-bottom: 1px solid #b8b8b8;
+}
+
+.usatoday .news-item .item {
+	display: flex;
+	width: 335px;
+	height: 90px;
+	margin: 10px 15px 0 0;
+	flex-wrap: wrap;
+}
+
+.usatoday .news-item .item img {
+	width: 110px;
+	height: 80px;
+}
+
+.usatoday .news-item .item .info {
+	margin-left: 10px;
+}
+
+.usatoday .news-item .item .info .news-title {
+	font-size: 15px;
+	font-weight: bold;
+	width: 200px;
+	margin-bottom: 5px;
+	color: #282727;
+}
+
+.usatoday .news-item .item .info .kind {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.usatoday .news-item .item .info .kind .kind-news,
+.usatoday .news-item .item .info .kind .kind-politics,
+.usatoday .news-item .item .info .kind .kind-nation,
+.usatoday .news-item .item .info .kind .kind-elections {
+	color: #1e3799;
+}
+
+.usatoday .news-item .item .info .kind .kind-mlb,
+.usatoday .news-item .item .info .kind .kind-new-york-knicks,
+.usatoday .news-item .item .info .kind .kind-nfl {
+	color: red;
+}
+
+.usatoday .news-item .item .info .kind .kind-money {
+	color: green;
+}
+
+.usatoday .news-item .item .info .kind .kind-opinion {
+	width: 53px;
+	color: #4d2882;
+	background-color: greenyellow;
+}
+
+.usatoday .news-item .item .info .kind .kind-celebrities {
+	color: #60369a;
+}
+
+.usatoday .news-item .item .info .kind .kind-reviewed {
+	color: #d55c00;
+}
+

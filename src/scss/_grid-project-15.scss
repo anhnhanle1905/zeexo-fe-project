@@ -1,0 +1,56 @@
+@import "media";
+$col: 15;  // biến col tuỳ theo cách chia grid mà thay đổi
+$gulter: 10px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  // margin: -$gulter / 2;
+
+  @include xs {
+    @for $i from 1 through $col {
+      .col-pj15-xs-#{$i} {
+        width: (100% / $col) * $i;
+        // padding: $gulter / 2;
+      }
+    }
+  }
+
+  @include sm {
+    @for $i from 1 through $col {
+      .col-pj15-sm-#{$i} {
+        width: (100% / $col) * $i;
+        // padding: $gulter / 2;
+      }
+    }
+  }
+
+  @include md {
+    @for $i from 1 through $col {
+      .col-pj15-md-#{$i} {
+        width: (100% / $col) * $i;
+        // padding: $gulter / 2;
+      }
+    }
+  }
+
+  @include lg {
+    @for $i from 1 through $col {
+      .col-pj15-lg-#{$i} {
+        width: (100% / $col) * $i;
+        padding: $gulter / 2;
+      }
+    }
+  }
+
+  @include xl {
+    @for $i from 1 through $col {
+      .col-pj15-xl-#{$i} {
+        width: (100% / $col) * $i;
+        padding: $gulter / 2;
+      }
+    }
+  }
+  
+}
+

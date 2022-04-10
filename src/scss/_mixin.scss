@@ -1,0 +1,23 @@
+//mixin
+
+@mixin format_text {
+  color: green;
+  background: red;
+}
+
+h1 {
+  @include format_text();
+}
+
+@mixin format_text($cl, $bg) {
+  color: $cl;
+  background: $bg;
+  @content;
+}
+
+h1 {
+  @include format_text(yellow, green);
+}
+p {
+  @include format_text(red, blue);
+}

@@ -1,0 +1,280 @@
+.layout-1 {
+	display: flex;
+	width: 1650px;
+	height: 510px;
+	margin-top: 100px;
+	margin-left: 12px;
+	padding-left: 0;
+	background-color: #ececec;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.layout-1 .kind {
+	font-size: 12px;
+	font-weight: bold;
+	width: 34px;
+	margin: 12px 22px;
+	padding: 2px 6px;
+	color: white;
+	border-radius: 10px;
+	background: #26b826;
+}
+
+.layout-1 .reactjs-best-practice {
+	height: 430px;
+}
+
+.layout-1 .tips-for-fun,
+.layout-1 .sharing-for-fun {
+	height: 470px;
+}
+
+.layout-1 .tips-for-fun,
+.layout-1 .reactjs-best-practice,
+.layout-1 .sharing-for-fun {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 520px;
+	margin-top: 20px;
+	border: 1px solid #e1dede;
+	background: white;
+}
+
+.layout-1 .tips-for-fun .title,
+.layout-1 .reactjs-best-practice .title,
+.layout-1 .sharing-for-fun .title {
+	font-size: 22px;
+	color: #23a8d5;
+}
+
+.layout-1 .tips-for-fun .time-date,
+.layout-1 .reactjs-best-practice .time-date,
+.layout-1 .sharing-for-fun .time-date {
+	font-style: italic;
+	margin-bottom: 15px;
+	color: #939393;
+}
+
+.layout-1 .tips-for-fun .content,
+.layout-1 .reactjs-best-practice .content,
+.layout-1 .sharing-for-fun .content {
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 10px;
+	color: #6c6b6b;
+}
+
+.layout-1 .tips-for-fun .center-word,
+.layout-1 .reactjs-best-practice .center-word,
+.layout-1 .sharing-for-fun .center-word {
+	color: #eded1b;
+}
+
+.layout-1 .tips-for-fun .center-word .big-word,
+.layout-1 .reactjs-best-practice .center-word .big-word,
+.layout-1 .sharing-for-fun .center-word .big-word {
+	font-size: 62px;
+	font-weight: bold;
+	letter-spacing: 7px;
+}
+
+.layout-1 .tips-for-fun .center-word .tips,
+.layout-1 .reactjs-best-practice .center-word .tips,
+.layout-1 .sharing-for-fun .center-word .tips {
+	position: relative;
+	bottom: 330px;
+	left: 160px;
+}
+
+.layout-1 .tips-for-fun .center-word .reactjs,
+.layout-1 .reactjs-best-practice .center-word .reactjs,
+.layout-1 .sharing-for-fun .center-word .reactjs {
+	position: relative;
+	bottom: 285px;
+	left: 77px;
+}
+
+.layout-1 .tips-for-fun .center-word .sharing,
+.layout-1 .reactjs-best-practice .center-word .sharing,
+.layout-1 .sharing-for-fun .center-word .sharing {
+	position: relative;
+	bottom: 330px;
+	left: 95px;
+}
+
+.layout-1 .tips-for-fun .center-word .small-center-word,
+.layout-1 .reactjs-best-practice .center-word .small-center-word,
+.layout-1 .sharing-for-fun .center-word .small-center-word {
+	font-size: 14px;
+	color: #eded1b;
+}
+
+.layout-1 .tips-for-fun .center-word .for-fun,
+.layout-1 .reactjs-best-practice .center-word .for-fun,
+.layout-1 .sharing-for-fun .center-word .for-fun {
+	position: relative;
+	bottom: 325px;
+	left: 195px;
+	letter-spacing: 1.5px;
+}
+
+.layout-1 .tips-for-fun .center-word .best-practice,
+.layout-1 .reactjs-best-practice .center-word .best-practice,
+.layout-1 .sharing-for-fun .center-word .best-practice {
+	position: relative;
+	bottom: 280px;
+	left: 145px;
+	letter-spacing: 1.5px;
+}
+
+.layout-1 .tips-for-fun .center-word .for-fun-2,
+.layout-1 .reactjs-best-practice .center-word .for-fun-2,
+.layout-1 .sharing-for-fun .center-word .for-fun-2 {
+	position: relative;
+	bottom: 325px;
+	left: 205px;
+	letter-spacing: 1.5px;
+}
+
+.layout-1 .tips-for-fun .center-word .dash-1,
+.layout-1 .reactjs-best-practice .center-word .dash-1,
+.layout-1 .sharing-for-fun .center-word .dash-1 {
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	bottom: 375px;
+	left: 278px;
+	color: #eded1b;
+}
+
+.layout-1 .tips-for-fun .center-word .dash-2,
+.layout-1 .reactjs-best-practice .center-word .dash-2,
+.layout-1 .sharing-for-fun .center-word .dash-2 {
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	bottom: 330px;
+	left: 285px;
+	color: #eded1b;
+}
+
+.layout-1 .tips-for-fun .center-word .dash-3,
+.layout-1 .reactjs-best-practice .center-word .dash-3,
+.layout-1 .sharing-for-fun .center-word .dash-3 {
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	bottom: 375px;
+	left: 288px;
+	color: #eded1b;
+}
+
+.layout-1 img {
+	width: 520px;
+	height: 280px;
+	margin-bottom: 15px;
+}
+
+p {
+	padding: 0 7px;
+}
+
+.layout-2 {
+	font-family: Tahoma;
+	display: flex;
+	width: 1240px;
+	height: 335px;
+	margin-top: 100px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #f3f2f2;
+	justify-content: space-around;
+}
+
+.layout-2 .rose-water,
+.layout-2 .dress,
+.layout-2 .screws,
+.layout-2 .phone-accessories,
+.layout-2 .trousers,
+.layout-2 .hand-wash {
+	width: 190px;
+	height: 330px;
+	background-color: white;
+}
+
+.layout-2 .mg {
+	margin: 5px 2px;
+}
+
+.layout-2 .name-product {
+	font-family: Tahoma;
+	font-size: 14px;
+	color: #414141;
+}
+
+.layout-2 .price {
+	font-size: 18px;
+	color: #f08512;
+}
+
+.layout-2 .origin-price-and-sale {
+	font-size: 13px;
+	display: flex;
+}
+
+.layout-2 .origin-price-and-sale .origin-price {
+	text-decoration: line-through;
+	color: #b8b8b8;
+}
+
+.layout-2 .origin-price-and-sale .sale {
+	margin-left: -10px;
+	color: grey;
+}
+
+.layout-2 .rating-and-location {
+	display: flex;
+	justify-content: space-around;
+}
+
+.layout-2 .rating-and-location .rating {
+	display: flex;
+	margin-left: 2px;
+	justify-content: flex-start;
+}
+
+.layout-2 .rating-and-location .rating .star {
+	font-size: 10px;
+	margin-top: 5px;
+	color: #ffc400;
+}
+
+.layout-2 .rating-and-location .rating .number {
+	font-size: 12px;
+	margin-top: 4px;
+	margin-left: -5px;
+	color: #b8b8b8;
+}
+
+.layout-2 .rating-and-location .location {
+	font-size: 12px;
+	margin-top: 4px;
+	color: #b8b8b8;
+}
+
+.trousers .rating-and-location,
+.hand-wash .rating-and-location {
+	display: flex;
+	margin-left: 7px;
+	justify-content: flex-start;
+}
+
+.layout-2 img {
+	width: 190px;
+	height: 190px;
+	margin-bottom: 10px;
+}
+
